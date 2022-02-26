@@ -1,12 +1,12 @@
 //Use moment to display today's date
-var todayDate = moment().format('dddd, MMM Do YYYY');
+var todayDate = moment().format('dddd, MMMM Do YYYY');
 $("#currentDay").html(todayDate);
 
 //Function for each hour button to save info written in the text area and display
 $(document).ready(function (){
     $(".saveBtn").on("click", function () {
 //Get values
-        var text = $(this).siblings("description").val();
+        var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 // Save to local storage        
         localStorage.setItem(time, text);
@@ -37,16 +37,16 @@ function timeTracker() {
     })
 }
 //Pull all hour data from localStorage
-$("#hour8.description").val(localStorage.getItem("hour8"));
-$("#hour9.description").val(localStorage.getItem("hour9"));
-$("#hour10.description").val(localStorage.getItem("hour10"));
-$("#hour11.description").val(localStorage.getItem("hour11"));
-$("#hour12.description").val(localStorage.getItem("hour12"));
-$("#hour13.description").val(localStorage.getItem("hour13"));
-$("#hour14.description").val(localStorage.getItem("hour14"));
-$("#hour15.description").val(localStorage.getItem("hour15"));
-$("#hour16.description").val(localStorage.getItem("hour16"));
-$("#hour17.description").val(localStorage.getItem("hour17"));
+$("#hour8 .description").val(localStorage.getItem("hour8"));
+$("#hour9 .description").val(localStorage.getItem("hour9"));
+$("#hour10 .description").val(localStorage.getItem("hour10"));
+$("#hour11 .description").val(localStorage.getItem("hour11"));
+$("#hour12 .description").val(localStorage.getItem("hour12"));
+$("#hour13 .description").val(localStorage.getItem("hour13"));
+$("#hour14 .description").val(localStorage.getItem("hour14"));
+$("#hour15 .description").val(localStorage.getItem("hour15"));
+$("#hour16 .description").val(localStorage.getItem("hour16"));
+$("#hour17 .description").val(localStorage.getItem("hour17"));
 
 //Call the time tracker function once local storage pulled
 timeTracker();
