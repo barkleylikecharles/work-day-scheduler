@@ -1,4 +1,20 @@
-# work-day-scheduler
+# Work Day Scheduler
+
+## Installation
+Updated and functional code can be cloned at https://github.com/barkleylikecharles/work-day-scheduler.
+
+## Usage
+Utilize this daily calendar planner to add meetings and deadlines to your schedule in hourly segments. Updates in real time to show you which calendar items have passed, which are current and which are upcoming to help keep you on track.  Local storage adds the functionality of this application.  Good luck and get planning! 
+
+## Credits  
+Project Completed by Nicole Barkley. [GitHub Profile] (https://github.com/barkleylikecharles)
+
+Starter code for project cloned from https://github.com/coding-boot-camp/super-disco
+
+## Website
+
+## Screenshot
+<img width="1306" alt="image" src="https://user-images.githubusercontent.com/97490354/155898811-2286c37d-40fc-480f-bdab-e0101700962d.png">
 
 ## License
 MIT License
